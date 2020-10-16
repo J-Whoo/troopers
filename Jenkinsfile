@@ -14,7 +14,7 @@ node('jenkins-jenkins-slave') {
     }
     parallel (
       "Test": {
-        echo 'All functional tests passed'
+        echo 'All functional tests passed. Alles Gut!'
       },
       "Check Image (pre-Registry)": {
         smartcheckScan([
